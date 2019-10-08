@@ -56,6 +56,7 @@ def request():
 @app.route("/finder")
 def finder():
     return render_template('finder.html')
+#@app.route("/begin")
 
 @app.route("/end")
 def end():
